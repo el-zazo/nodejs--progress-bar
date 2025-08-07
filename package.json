@@ -1,0 +1,22 @@
+{
+  "name": "@el-zazo/progress-bar",
+  "version": "0.0.1",
+  "description": "A flexible and robust Node.js progress bar library for command-line interfaces",
+  "main": "index.js",
+  "scripts": {
+    "demo": "node examples/demo.js"
+  },
+  "author": "el-zazo",
+  "license": "ISC",
+  "dependencies": {
+    "ansi-color": "^0.2.1",
+    "cli-progress": "^3.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/el-zazo/nodejs--progress-bar.git"
+  },
+  "publishConfig": {
+    "@el-zazo:registry": "https://npm.pkg.github.com"
+  }
+}
